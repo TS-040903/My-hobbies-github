@@ -1,0 +1,27 @@
+.description {
+    padding: 100px 0;
+    &--background1 {
+        background-color: rgb(232, 232, 241);
+    }
+    &--background2 {
+        background-color: rgb(241, 241, 250);
+    }
+    &__title {
+        font-size: 45px;
+    }
+    &__text {
+        margin: 30px 150px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .description {
+        &__title {
+            font-size: 30px;
+        }
+        &__text {
+            font-size: 22px;
+        }
+    }
+}

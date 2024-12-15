@@ -1,0 +1,16 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    border-radius: 50%;
+    background-color: rgb(243, 213, 213);
+    color: white;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.75rem;
+    transition: background-color 0.5s;
+    &:hover {
+        background-color: #737373;
+    }
+}

@@ -1,0 +1,237 @@
+.front-page {
+  background-image: url(../image/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: rgba(253, 251, 251, 0.4);
+  display: flex;
+  justify-content: space-around;
+  padding: 44px 0 45px;
+}
+
+.banner {
+  padding: 210px 0 30px;
+  color: rgb(53, 52, 52);
+}
+.banner__title {
+  font-size: 65px;
+}
+.banner__descrition {
+  font-size: 30px;
+  margin: 20px 0 150px;
+}
+.banner__icon {
+  font-size: 50px;
+}
+.banner__icon i {
+  color: rgb(175, 175, 175);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  text-align: center;
+}
+
+.nav-menu {
+  font-size: 20px;
+}
+.nav-menu__item {
+  color: rgb(70, 69, 69);
+  text-decoration: none;
+}
+.nav-menu__item:not(:last-child)::after {
+  content: " ";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: rgb(70, 69, 69);
+  margin: 5px 45px;
+}
+
+.about-us {
+  padding: 100px 0;
+}
+.about-us__description {
+  font-size: 30px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-us__description {
+    font-size: 25px;
+  }
+}
+.moodboard {
+  background-color: rgb(232, 232, 241);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 80px 100px;
+}
+.moodboard__item {
+  flex-basis: calc((100% - 40px) / 3);
+  max-width: 400px;
+  max-height: 400px;
+}
+.moodboard__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.moodboard__item:not(:nth-of-type(3n)) {
+  margin-right: 20px;
+}
+.moodboard__item:not(:nth-of-type(n+4)) {
+  margin-bottom: 20px;
+}
+.moodboard__item :hover {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
+.description {
+  padding: 100px 0;
+}
+.description--background1 {
+  background-color: rgb(232, 232, 241);
+}
+.description--background2 {
+  background-color: rgb(241, 241, 250);
+}
+.description__title {
+  font-size: 45px;
+}
+.description__text {
+  margin: 30px 150px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .description__title {
+    font-size: 30px;
+  }
+  .description__text {
+    font-size: 22px;
+  }
+}
+.video {
+  max-width: 700px;
+  max-height: 700px;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.cakeboard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 80px 100px;
+}
+.cakeboard__item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+.cakeboard__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cakeboard__item:not(:nth-of-type(3n)) {
+  margin-right: 20px;
+}
+.cakeboard__item:not(:nth-of-type(n+4)) {
+  margin-bottom: 20px;
+}
+.cakeboard__item :hover {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+  .cakeboard {
+    padding: 0 60px;
+  }
+}
+.natureboard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 80px 100px;
+}
+.natureboard__item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+.natureboard__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.natureboard__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .natureboard {
+    padding: 0 60px;
+  }
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+.social__network {
+  color: #262626;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+}
+.social__network:not(:last-child) {
+  margin-right: 40px;
+}
+.social__network:hover {
+  transform: scale(1.5);
+}
+
+footer {
+  padding: 80px 0 30px;
+  background-color: rgb(211, 211, 211);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  border-radius: 50%;
+  background-color: rgb(243, 213, 213);
+  color: white;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.75rem;
+  transition: background-color 0.5s;
+}
+.back-to-top:hover {
+  background-color: #737373;
+}/*# sourceMappingURL=style.css.map */

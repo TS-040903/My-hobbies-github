@@ -1,0 +1,17 @@
+.banner {
+    padding: 210px 0 30px;
+    color: rgb(53, 52, 52);
+    &__title {
+        font-size: 65px;
+    }
+    &__descrition {
+        font-size: 30px;
+        margin: 20px 0 150px;
+    }
+    &__icon {
+        font-size: 50px;
+        i {
+            color: rgb(175, 175, 175);
+        }
+    }
+}
